@@ -1,0 +1,15 @@
+[isort]
+line_length=120
+default_section = THIRDPARTY
+sections = STDLIB,THIRDPARTY,FIRSTPARTY,LOCALFOLDER
+profile=black
+
+[flake8]
+ignore = D103, D401, PT009, E731, C901
+exclude = .git,__pycache__,build,dist
+
+dictionaries = en_US,python,technical,django
+spellcheck-targets = comments
+max-complexity = 10
+max-line-length = 120
+inline-quotes = "
