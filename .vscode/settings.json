@@ -1,15 +1,18 @@
 {
     "search.exclude": {
         "**/__pycache__": true,
+        ".env/": true,
     },
     "files.exclude": {
         "**/.git": true,
         "**/__pycache__": true,
+        ".env/": true,
     },
     "files.watcherExclude": {
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
         "**/__pycache__": true,
+        ".env/": true,
     },
     "[python]": {
         "editor.defaultFormatter": null,
