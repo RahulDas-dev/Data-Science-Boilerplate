@@ -1,4 +1,10 @@
-spacy
-wikipedia-api
+numpy
 pandas
+matplotlib
+scikit-learn
+seaborn
+opencv-python
+Pillow
+scipy
 tqdm
+

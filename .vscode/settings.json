@@ -26,7 +26,9 @@
         "--profile",
         "black"
     ],
-    "python.pythonPath": "C:\\Users\\admin\\.virtualenvs\\Structure-from-Motion-RSsSS-Ch\\Scripts\\python.exe",
+    "python.autoComplete.extraPaths": [
+        "${workspaceFolder}/customModule"
+    ],
     "python.testing.unittestArgs": [
         "-v",
         "-s",
@@ -36,4 +38,18 @@
     ],
     "python.testing.pytestEnabled": false,
     "python.testing.unittestEnabled": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/customModule"
+    ],
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--rcfile=${workspaceFolder}/.pylintrc"
+    ],
+    "python.linting.ignorePatterns": [
+        "**/site-packages/**/*.py",
+        ".vscode/*.py",
+        ".git/*"
+    ]
 }
