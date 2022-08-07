@@ -5,7 +5,7 @@ from .foo import foo
 
 def bar():
     foo()
-    print(f"This is bar ")
+    print(f"this is bar ")
 
 
 if __name__ == "__main__":

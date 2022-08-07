@@ -1,9 +1,8 @@
-# Data Science ML Boilerplate.
-    In the face of ambiguity, refuse the temptation to guess.
+# Data Science ML Boilerplate. ```[ In the face of ambiguity, refuse the temptation to guess ]```
 
 Starting a new Data Science / ML project from the scratch  .
 
-### Virtual environment creation [ using built-in venv ]
+### Virtual environment creation [ using venv ]
 
 1. Run ```python -m venv --prompt <promt> .env``` 
 2. Check project root directory, it should have ```.env``` directory
@@ -16,7 +15,7 @@ Starting a new Data Science / ML project from the scratch  .
     - It should point ```${Project_root}/.env/Scripts/python```
 5. install dependency using ```pip install <package_name>```
 
-### Jupyter Installation [Optional]
+### Jupyter Installation for Environment [ Optional ]
 
 Installation can be done ```pip install Jupyter```. However big list dependency of Jupyter can be avoided by installting ipython kernel module only, if you have Jupyter installed Globally.
 
@@ -26,7 +25,7 @@ Installation can be done ```pip install Jupyter```. However big list dependency 
 
     ![ipython-kernel](./.github/ipython-kernel-selection.png)
 
-4. To Remove the kernel in case of uninstallation.
+4. To Remove the kernel 
     - ```jupyter kernelspec list``` this list down all installed kernal.
     - ```jupyter kernelspec uninstall unwanted-kernel``` removes the kernal.  
 
@@ -37,38 +36,36 @@ Installation can be done ```pip install Jupyter```. However big list dependency 
 
     ![linting-error-editor](./.github/flake8-linting-editor.png)
 
-1. Run linting form cmd using  ```flake8 --config .flake8 src/ tests/ -v```
+2. Run linting form cmd using  ```flake8 --config .flake8 src/ tests/ -v```
 
     ![linting-error-cmd](./.github/flake8-linting-cmd.png)
 
-2. Disable linting for a specific line, example
+3. Disable linting for a specific line, example
     ```
         import config.logging_settings # noqa <Error No>
-    ```
     OR 
-    ```
         global VAR # noqa <Error No>
     ```
-3. Awsome Flake-8 [Plugin](https://github.com/DmytroLitvinov/awesome-flake8-extensions#all-in-one) list
+4. Awsome Flake-8 [Plugin](https://github.com/DmytroLitvinov/awesome-flake8-extensions#all-in-one) list
 
 
-### Cleaning file cache files [__pycache__ ]
+### Cleaning the cache files [ using pyclean ]
 
 Run ``` pyclean src/ tests/ -v```
 
-### Code Formating
+### Code Formating [ using balck ]
 
 Run ```black . -v```
 
 ![black-formatting](./.github/black-formating.png)
 
-### Run jupyter notebook from remote shell
+### Runing jupyter notebook from remote shell
 
 1. First Run ```jupyter notebook``` from project directory of remote server.
 2. Notedown the port number .
 3. Finally run the following commands from local meachine
     ```ssh -L 8888:localhost:<remote_port> <remote_user_name>@<remote_ip>```
-5. Point the browser at ```localhost:8888```    
+4. Point the browser at ```localhost:8888```    
 
 
 ### Finally
