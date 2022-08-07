@@ -1,4 +1,6 @@
-# Data Science ML Boilerplate. `[ In the face of ambiguity, refuse the temptation to guess ]`
+# Data Science ML Boilerplate. <small>[ In the face of ambiguity, refuse the temptation to guess ]</small>   
+
+
 
 Starting a new Data Science / ML project from the scratch  .
 
