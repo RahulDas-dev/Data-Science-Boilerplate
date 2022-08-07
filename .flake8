@@ -1,8 +1,11 @@
 [flake8]
 ignore = D103, D401, PT009, E731, C901
-exclude = .git,__pycache__,build,dist
-
-dictionaries = en_US,python,technical,django
+exclude = .git,
+        .github,
+        .vscode,
+        __pycache__,
+        data,
+        model
 spellcheck-targets = comments
 max-complexity = 10
 max-line-length = 120

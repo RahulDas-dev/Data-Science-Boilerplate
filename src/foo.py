@@ -1,2 +1,2 @@
 def foo():
-    print(f"this is foo from {__name__}")
+    print("this is foo")

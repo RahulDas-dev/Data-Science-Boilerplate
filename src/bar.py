@@ -1,8 +1,12 @@
 import os
 
-from src.foo import foo
+from .foo import foo
 
 
 def bar():
-    print(f"From bar ")
     foo()
+    print(f"This is bar ")
+
+
+if __name__ == "__main__":
+    bar()
