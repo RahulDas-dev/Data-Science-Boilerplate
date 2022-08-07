@@ -1,13 +1,10 @@
 # Install dependencies
 -r requirements.txt
 
-# Install test dependencies
+# Install Development Dependencies
 pyclean
 black
-pylint
-pytest
-pytest-runner
-pytest-flake8
-pytest-black
-pytest-cov
-pytest-xdist
+flake8
+flake8-quotes
+flake8-builtins
+pep8-naming

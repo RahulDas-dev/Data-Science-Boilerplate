@@ -32,22 +32,17 @@ Installation can be done ```pip install Jupyter```. However big list dependency 
 
 #### Linting [ using pylint ]
 
-1. Run linting for whole project  ```pylint src/* --report yes```
-2. Disable linting for a specific line , example
+1. Run linting for whole project ```flake --config .flake8 src/ -v```
+2. Disable linting for a specific line, example
     ```
-    import config.logging_settings # pylint: disable=unused-import
-    ```
-    OR 
-    ```
-    global VAR # pylint: disable=global-statement
+        import config.logging_settings # noqa <Error No>
     ```
     OR 
     ```
-    def test():
-        # Disable all the no-member violations in this function
-        # pylint: disable=no-member
-        ...
+        global VAR # noqa <Error No>
     ```
+3. Awsome Flake-8 [Plugin](https://github.com/DmytroLitvinov/awesome-flake8-extensions#all-in-one) list
+
 
 #### Cleaning file cache files [__pycache__ ]
 
