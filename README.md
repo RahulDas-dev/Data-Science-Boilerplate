@@ -1,4 +1,4 @@
-# Data Science ML Boilerplate. <small>[ In the face of ambiguity, refuse the temptation to guess ]</small>   
+# Data Science ML Boilerplate. ```[ Flat is better than nested ]```
 
 
 
@@ -17,7 +17,7 @@ Starting a new Data Science / ML project from the scratch  .
     - It should point ```${Project_root}/.env/Scripts/python```
 5. install dependency using ```pip install <package_name>```
 
-### Jupyter Installation for Environment [ Optional ]
+### Jupyter installation for the environment [ Optional ]
 
 Installation can be done ```pip install Jupyter```. However big list dependency of Jupyter can be avoided by installting ipython kernel module only, if you have Jupyter installed Globally.
 

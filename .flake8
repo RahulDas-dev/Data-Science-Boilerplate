@@ -5,7 +5,13 @@ exclude = .git,
         .vscode,
         __pycache__,
         data,
-        model
+        model,
+        .gitignore,
+        .pre-commit-config.yaml,
+        .python-version,
+        README.md, 
+        requiremwnts_dev.txt,
+        requiremwnts.txt
 spellcheck-targets = comments
 max-complexity = 10
 max-line-length = 120
