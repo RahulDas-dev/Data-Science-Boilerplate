@@ -1,21 +1,29 @@
 [flake8]
-ignore = D103, D401, PT009, E731, C901
+# Base flake8 configuration:
+show-source = True
+statistics = False
+enable-extensions = G
 exclude = .git,
+        .env,
         .github,
         .vscode,
         __pycache__,
         data,
         model,
-        .gitignore,
-        .pre-commit-config.yaml,
-        .python-version,
-        README.md, 
-        requiremwnts_dev.txt,
-        requiremwnts.txt
-spellcheck-targets = comments
+        notebooks
+        
+per-file-ignores = */__init__.py: F401 ,F403  
+
+# Plugins:
+accept-encodings = utf-8
 max-complexity = 10
 max-line-length = 120
 inline-quotes = double
+
+# Ignore some pydoctest checks globally:
+ignore = D103, D401, PT009, E731, C901        
+spellcheck-targets = comments
+
 [isort]
 line_length=120
 default_section = THIRDPARTY
