@@ -38,7 +38,7 @@ Installation can be done ```pip install Jupyter```. However big list dependency 
 
     ![linting-error-editor](./.github/flake8-linting-editor.png)
 
-2. Run linting form cmd using  ```flake8 --config .flake8 src/ tests/ -v```
+2. Run linting form cmd using  ```flake8  -v .```
 
     ![linting-error-cmd](./.github/flake8-linting-cmd.png)
 
@@ -55,7 +55,7 @@ Installation can be done ```pip install Jupyter```. However big list dependency 
 
 Run ``` pyclean src/ tests/ -v```
 
-### Code Formating [ using balck ]
+### Code Formating [ using black ]
 
 Run ```black . -v```
 
