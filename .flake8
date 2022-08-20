@@ -4,7 +4,7 @@ show-source = True
 statistics = True
 enable-extensions = G
 exclude = .git,
-        .env,
+        .venv,
         .github,
         .vscode,
         __pycache__,
