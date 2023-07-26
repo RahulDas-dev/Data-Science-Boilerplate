@@ -1,0 +1,8 @@
+{
+    "project_name": "Python Data Science Boilerplate",
+    "project_short_description": "Python Boilerplate contains all the boilerplate you need to start a datascience project.",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "author_name": "Your name (or your organization/company/team)",
+    "description": "A short description of the project.",
+    "python_interpreter": ["python3", "python"]
+}
