@@ -6,8 +6,4 @@ pyclean
 black
 black[jupyter]
 flake8
-flake8-quotes
-flake8-builtins
-pep8-naming
 ipykernel
-ipywidgets
